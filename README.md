@@ -32,6 +32,12 @@ Script(s) are located within the **/opt/bitnami/kafka/bin** folder of the **kafk
 /opt/bitnami/kafka/bin/kafka-topics.sh --zookeeper zookeeper:2181 --list
 ```
 
+### Describe the topics in the cluster
+
+```
+/opt/bitnami/kafka/bin/kafka-topics.sh --zookeeper zookeeper:2181 --describe
+```
+
 ## Instantiate a Console Producer 
 
 ### Without Key
